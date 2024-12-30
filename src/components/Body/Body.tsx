@@ -20,9 +20,11 @@ const Body = () => {
 				<p>{t("subtitle_4")}</p>
 				<p>{t("body_text_5")}</p>
 				<div className="group_mail">
-					<p>{t("footer_text_1")}</p>
-					<p className="bold">
-						<a href="mailto: hello@guzzu.io">{t("contact_us")}</a>
+					<p>
+						{t("footer_text_1")}
+						<a className="bold" href="mailto: hello@guzzu.io">
+							{t("contact_us")}
+						</a>
 					</p>
 				</div>
 			</div>
