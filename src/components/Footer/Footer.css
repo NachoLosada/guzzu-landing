@@ -1,14 +1,31 @@
 .footer {
 	padding: 10px 20px;
 	text-align: center;
-	background-color: #f8f9fa;
-	border-top: 1px solid #ddd;
-	/* position: fixed; */
-	/* bottom: 0; */
 	width: 95%;
+	height: 80px;
 	border: 2px solid black;
 	box-shadow: rgb(4, 0, 21) 16px 16px 0px 0px;
 	border-radius: 4px;
 	align-self: center;
 	margin-bottom: 36px;
+
+	position: fixed;
+	bottom: 0;
+}
+
+.icons {
+	display: flex;
+	gap: 14px;
+}
+.icon-box {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	border: 1px solid rgb(4, 0, 21);
+	box-shadow: rgb(4, 0, 21) 4px 4px 0px;
+	border-radius: 4px;
+	width: 48px;
+	height: 48px;
 }
