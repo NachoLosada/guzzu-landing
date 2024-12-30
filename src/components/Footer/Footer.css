@@ -11,11 +11,14 @@
 
 	position: fixed;
 	bottom: 0;
+
+	display: flex;
+	justify-content: space-between;
 }
 
 .icons {
 	display: flex;
-	gap: 14px;
+	gap: 32px;
 }
 .icon-box {
 	display: flex;
