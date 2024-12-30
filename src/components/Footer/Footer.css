@@ -3,7 +3,12 @@
 	text-align: center;
 	background-color: #f8f9fa;
 	border-top: 1px solid #ddd;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
+	/* position: fixed; */
+	/* bottom: 0; */
+	width: 95%;
+	border: 2px solid black;
+	box-shadow: rgb(4, 0, 21) 16px 16px 0px 0px;
+	border-radius: 4px;
+	align-self: center;
+	margin-bottom: 36px;
 }

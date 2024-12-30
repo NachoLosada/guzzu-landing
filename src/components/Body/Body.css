@@ -1,9 +1,9 @@
 .body {
 	flex: 1;
-	padding: 20px;
+	padding: 36px;
 	background-color: #ffffff;
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 40px;
 	color: black;
 	display: flex;
 	flex-direction: column;
@@ -90,11 +90,14 @@
 	}
 	.group_goodbye {
 		margin-top: 20px;
-
 		align-items: center;
 	}
 }
 @media (max-width: 768px) {
+	.body {
+		padding: 24px;
+	}
+
 	.body h1 {
 		font-size: 35px;
 	}
