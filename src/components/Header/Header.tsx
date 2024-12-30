@@ -14,8 +14,12 @@ const Header = () => {
 		<header className="header">
 			<img className="logo" src={guzzuLogo} alt="Logo" />
 			<select className="language-selector" onChange={handleLanguageChange}>
-				<option value="en">EN</option>
-				<option value="es">ES</option>
+				<option value="en" aria-label="English">
+					EN
+				</option>
+				<option value="es" aria-label="Spanish">
+					ES
+				</option>
 			</select>
 		</header>
 	);

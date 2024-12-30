@@ -5,6 +5,37 @@
 .app-container {
 	display: flex;
 	flex-direction: column;
+	min-width: 100vw;
 	min-height: 100vh;
-	min-width: 100vh;
+}
+
+body {
+	font-family: "Fluro", sans-serif;
+	font-size: 16px;
+}
+
+@font-face {
+	font-family: "Fluro";
+	src: url("./assets/fonts/fluro.otf");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Fluro-bold";
+	src: url("./assets/fonts/fluro-bold.otf");
+	font-style: bold;
+}
+
+@font-face {
+	font-family: "Fluro-semibold";
+	src: url("./assets/fonts/fluro-semibold.otf");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Fluro-bold-outline";
+	src: url("./assets/fonts/fluro-bold-outline.otf");
+	font-weight: 400;
+	font-style: normal;
 }

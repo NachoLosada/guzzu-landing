@@ -24,7 +24,7 @@ const resources = {
 			footer_text_1: "If you have any questions, contact us at ",
 			contact_us: "hello@guzzu.io",
 			footer_text_2: "Thank you for being part of our journey.",
-			bye_text: "¡Hasta pronto!",
+			bye_text: "See you soon!",
 		},
 	},
 	es: {
